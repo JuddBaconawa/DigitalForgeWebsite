@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.footer-container {
+    background-color: rgb(1, 1, 110);
+    padding-bottom: 4rem;
+    padding-top: 1rem;
+}
+
+.footer {
+    width: 80%;
+    height: 40vh;
+    background-color: #212329;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.footer-heading {
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+}
