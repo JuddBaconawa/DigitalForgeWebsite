@@ -30,6 +30,7 @@ h1 {
     justify-content:space-between;
     align-items: center;
     background-color: hsl(0, 0%, 20%);
+    /* background-color: #4682b4; */
     margin-right: 0 20px;
     height: 80px;
 
@@ -138,7 +139,8 @@ h1 {
 .footer-heading {
     display: flex;
     flex-direction: column;
-    margin-right: 4rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
 }
 
 .footer-heading h2 {
