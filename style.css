@@ -108,6 +108,7 @@ h1 {
     padding: 12px 15px;
     display: block;
     text-align: center;
+    font-size: 1.3rem;
 }
 
 .navbar a:hover {
