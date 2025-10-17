@@ -1,0 +1,120 @@
+.navbar {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: #f5deb3;
+    /* background-color: #4682b4; */
+    margin-right: 0 20px;
+    margin-left: 0 20px;
+    height: 110px;
+    box-shadow: 0 2px 13px 0 rgba(#f5deb3, 0.4);
+    z-index: 1000;
+    transition: top 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Adds shadow to the navbar*/
+.navbar.scrolled {
+    box-shadow: 0 2px 8px rgba(#f5deb3, 0.15);
+}
+
+.navbar.hide {
+    top: -110px; /* Move the navbar out of view */
+}
+
+.navbar-left, .navbar-center, .navbar-right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-right {
+    justify-content: flex-end;;
+}
+
+.navbar-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    padding: 10px;
+}
+
+.searchbar {
+    /* width: 250px; */
+    height: 40px;
+    width: 420px;
+    width: 80%;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+    
+}
+
+
+ .navbar-center button {
+    height: 40px;
+    padding: 0px 13px;
+    margin-left: 5px;
+    background-color: hsl(0, 0%, 30%);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.9rem;
+ }
+
+ .navbar-center button:hover {
+    background-color: hsl(0, 0%, 10%);    
+ }
+
+ .navbar-center button:hover {
+  background-color: red;
+}
+
+.logo {
+    height: 40px;
+    width: auto;
+    vertical-align: middle;
+}
+
+.navbar-left a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+}
+
+.navbar-left img {
+    margin-right: 8px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    background-color: #f5deb3;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    text-shadow: rgba(#4682b4, 0.15);
+}
+
+.navbar a {
+    color: #4682b4;
+    background-color: #f5deb3;
+    text-shadow: rgba(#4682b4, 0.15);
+    text-decoration: none;
+    padding: 12px 15px;
+    display: block;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight:680;
+}
+
+.navbar a:hover {
+    background-color: hsl(0, 0%, 10%);
+}
+
+.navbar li {
+    float: left;
+}
