@@ -77,6 +77,9 @@
     height: 90px;
     width: auto;
     vertical-align: middle;
+    border-radius: 10px;
+    cursor: pointer;
+    
 }
 
 .navbar-left a {
