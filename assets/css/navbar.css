@@ -10,6 +10,9 @@
     box-shadow: 0 2px 13px 0 rgba(#f5deb3, 0.4);
     z-index: 1000;
     transition: top 0.3s ease, box-shadow 0.3s ease;
+    /* max-width: 1400px; */
+    margin: 0 auto;
+    padding: 0 2rem auto;
 }
 
 /* Adds shadow to the navbar*/
@@ -74,7 +77,7 @@
 }
 
 .logo {
-    height: 90px;
+    height: 80px;
     width: auto;
     vertical-align: middle;
     border-radius: 10px;
