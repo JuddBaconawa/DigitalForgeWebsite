@@ -1,3 +1,8 @@
+.navbar-bg {
+    background-color: #f5deb3;
+    width: 100%;
+}
+
 .navbar {
     display: flex;
     justify-content:space-between;
@@ -6,6 +11,7 @@
     /* background-color: #4682b4; */
     margin-right: 0 20px;
     margin-left: 0 20px;
+    padding: 10px 20px;
     height: 110px;
     box-shadow: 0 2px 13px 0 rgba(#f5deb3, 0.4);
     z-index: 1000;
@@ -13,7 +19,11 @@
     /* max-width: 1400px; */
     margin: 0 auto;
     padding: 0 2rem auto;
+    max-width: 1800px;
+    min-width: 800px;
 }
+
+
 
 /* Adds shadow to the navbar*/
 .navbar.scrolled {
