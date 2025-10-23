@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="assets/css/navbar.css">
   <link rel="stylesheet" href="assets/css/main.css">
   <link rel="stylesheet" href="assets/css/footer.css">
+  <link rel="stylesheet" href="assets/css/forms.css">
 </head>
 <body>
 <!-- <div class="promotion-banner">
@@ -15,7 +16,7 @@
       Free shipping on all orders over $50!
     </p>
   </div> -->
-  <div class="navbar-container">
+  <header class="navbar-container">
     <div class="navbar-bg">
       <nav class="navbar">
 
@@ -39,11 +40,69 @@
       </nav>
     </div>
 
-</div>
+  </header>
 
-<div class=""></div>
+  <main class="main_container">
+    
+    <div class="contactus_banner">
+      <section class="contact">
+        <h1>
+          Contact Us
+        </h1>
 
-<div class="footer-container">
+        <h2>
+          Get Consultation
+        </h2>
+
+        <h3>
+          Reach out to see what we can do for you
+        </h3>
+      </section>
+    </div>
+
+    <div class="consultation_form">
+
+
+      <div class="form_container">
+        <form action="process_form.php" method="post">
+          <label for="first_name">First Name:</label>
+          <input type="text" id="first_name" required>
+
+          <label for="last_name">Last Name:</label>
+          <input type="text" id="last_name" placeholder="Last Name" required>
+
+          <label for="email">Email</label>
+          <input type="text" id="email" required>
+
+          <label for="company_name">Company Name</label>
+          <input type="text" id="company_name" required>
+
+          <label for="company_website">Domain</label>
+          <input type="text" id="company_website" required>
+
+          <label for="subject">Subject:</label>
+          <input type="text" id="subject">
+
+          <label for="message">Message:</label>
+          <input type="text" id="message" required>
+
+          <img src="" alt="Sign up now image" class="image">
+
+          <div class="action">
+            <button type="button" class="consultbtn">Send</button>
+          </div>
+        </form>
+      </div>
+
+    </div>
+
+
+
+  </main>
+
+
+
+  <div class="footer-container">
     <footer class="footer">
       <div class="footer-heading footer-0">
         <h2>Digital Forge</h2>
