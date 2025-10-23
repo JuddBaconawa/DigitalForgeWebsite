@@ -1,8 +1,9 @@
 .main-container {
     max-width: 1200px;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     font-family: Arial, sans-serif;
+    box-shadow: 0 2px 13px 0 rgba(0, 0, 0, 0.4);
 }
 
 .image-container {
@@ -41,6 +42,10 @@
     object-fit: cover;
     object-position: top center;
     /* position: absolute; */
+    /* margin-right: 0 20px;
+    margin-left: 0 20px; */
+    /* max-width: 1800px;
+    min-width: 800px; */
     
 }
 
