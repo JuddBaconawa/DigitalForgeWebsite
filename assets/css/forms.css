@@ -1,13 +1,34 @@
+.contactus_banner {
+    background-color: white;
+    padding: 1rem 1rem;
+    width: 80%;
+    margin: auto auto;
+}
+
 .consultation_form {
     background-color: white;
     /* display: flex; */
     box-sizing: border-box;
-    padding: 1rem;
+    padding: 1rem 1rem;
     border-radius: 1rem;
     box-shadow: 0 2px 13px 0 rgba(0, 0, 0, 0.4);
     width: 80%;
-    max-width: 80%;
+    max-width: 100%;
+    margin: 0 auto;
     
+}
+
+.form_container {
+  display: flex;
+  gap: 2rem;
+}
+
+form {
+  flex: 2;
+}
+
+form h2 {
+  text-align: center;
 }
 
 label {
