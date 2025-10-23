@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #f5deb3;
+    /* background-color: #f5deb3; */
 }
 
 
@@ -15,6 +15,7 @@ main {
     margin: 20px;
     margin-left: 20px;
     margin-right: 20px;
+    background-color: #f5deb3;
 }
 
 h1 {
@@ -24,15 +25,52 @@ h1 {
 .promotion_banner {
     background-color: red;
     color: white;
-    /* font-weight: 300; */
+    font-weight: 300;
     font-size: 1.1rem;
     text-align: center;
-    text-shadow: #212329 1px 1px 2px;
+    text-shadow: #212329 1px 1px 10px;
     padding: .5rem;
     transition: all 0.9s ease;
 }
 
+/* ================= test ===================== */
 
+.main_container {
+  outline: 3px solid #00b4d8; /* Blue for main content area */
+}
+
+.contactus_banner {
+  outline: 3px solid #ffafcc; /* Pink for banner section */
+}
+
+.consultation_form {
+  outline: 3px solid #ffd60a; /* Yellow for form section */
+}
+
+.form_wrapper {
+  outline: 3px dashed #2a9d8f; /* Green dashed for full form layout */
+}
+
+.row {
+  outline: 2px dotted #f77f00; /* Orange dotted for row layout */
+}
+
+.input_group {
+  outline: 2px dotted #8338ec; /* Purple dotted for each label+input */
+}
+
+.navbar-container {
+  outline: 3px solid #e63946; /* Red for header/nav area */
+}
+
+.footer-container {
+  outline: 3px solid #6a4c93; /* Violet for footer container */
+}
+
+/* Optional: Add some spacing to see outlines clearly */
+* {
+  scroll-margin: 20px;
+}
 
 
 
