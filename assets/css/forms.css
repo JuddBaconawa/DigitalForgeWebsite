@@ -1,0 +1,26 @@
+.consultation_form {
+    background-color: white;
+    /* display: flex; */
+    box-sizing: border-box;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 2px 13px 0 rgba(0, 0, 0, 0.4);
+    width: 80%;
+    max-width: 80%;
+    
+}
+
+label {
+  display: block;
+  margin-bottom: .3rem;
+  font-weight: bold;
+  color: darkgray;
+}
+
+button {
+  width: 5rem;
+  height: 1.9rem;
+  font-weight: 990;
+  color: white;
+  background-color: green;
+}
